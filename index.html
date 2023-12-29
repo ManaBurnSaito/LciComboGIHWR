@@ -12,6 +12,7 @@
             buttons: ['copy'],
             fixedHeader: true,
             dom: 'iQrtBlp',
+            order: [[df.columns.get_loc('combo+-'), 'desc']]  // デフォルトのソート列と降順を指定
         });})
     </script>
     <table border="1" class="dataframe my-table">
